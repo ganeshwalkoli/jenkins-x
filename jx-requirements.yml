@@ -6,7 +6,7 @@ spec:
     schedule: ""
   cluster:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
-    clusterName: kind
+    clusterName: kubernetes
     devEnvApprovers:
     - todo
     environmentGitOwner: todo
@@ -27,7 +27,7 @@ spec:
       email: ""
       enabled: false
       production: false
-  repository: bucketrepo
+  repository: ganeshwalkoli/jenkins-x
   secretStorage: local
   vault: {}
   webhook: lighthouse
